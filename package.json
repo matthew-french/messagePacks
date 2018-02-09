@@ -1,0 +1,19 @@
+{
+  "name": "messagepacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-french/messagePacks.git"
+  },
+  "author": "Matt French <matt.french@palringo.com> (http://palringo.im)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthew-french/messagePacks/issues"
+  },
+  "homepage": "https://github.com/matthew-french/messagePacks#readme"
+}

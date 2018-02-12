@@ -3,10 +3,10 @@ div(class='mimicbot_default_body')
     p(id='message' class='mimicbot_default_message mimicbot_default_bubble #{language}') #{message}
   div(class='mimicbot_default_outer')
     div(class='mimicbot_default_inner')
-      div(class='circlify mimicbot_default_image u_' + sourceSubscriberId)
+      div(class='circlify mimicbot_default_image u_' + userid)
 link(rel='stylesheet', href=css)
 style(type="text/css").
-  .mimicbot_default_image.u_#{sourceSubscriberId} {
+  .mimicbot_default_image.u_#{userid} {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -17,5 +17,5 @@ style(type="text/css").
     background-color: green;
   }
   .mimicbot_default_body {
-    background: url(#{background});
+    background: url(https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/default/background.png);
   }

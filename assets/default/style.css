@@ -4,6 +4,7 @@
   height: 120px;
   width: 120px;
 }
+
 .mimicbot_default_body {
   overflow: hidden;
   border: 1px solid #1f0012;
@@ -12,11 +13,13 @@
   position: relative;
   padding: 0.5em 0em 0em 0.5em;
 }
+
 .mimicbot_default_container {
   clear: both;
   min-height: 120px;
   position: relative;
 }
+
 .mimicbot_default_outer {
   bottom: 0;
   right: 0;
@@ -24,18 +27,22 @@
   min-height: 120px;
   position: absolute;
 }
+
 .mimicbot_default_inner {
   margin: 0 auto;
   width: 125px;
   height: 120px;
   position: relative;
 }
+
 .mimicbot_default_message.ar {
   direction: rtl;
 }
+
 .mimicbot_default_message {
   color: white;
 }
+
 .mimicbot_default_message_outer {
   padding-right: 125px;
   text-wrap: avoid;
@@ -44,9 +51,10 @@
   line-height: 1.2;
   font-weight: bold;
 }
+
 .mimicbot_default_bubble {
   position: relative;
-  width: 60%;
+  width: 100%;
   padding: 6px;
   border: #aaa solid 1px;
   -webkit-border-radius: 12px;
@@ -66,6 +74,7 @@
   background: linear-gradient(to bottom, #cdd0a0 68%, #b6d3a2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=\'#cdd0a0\', endColorstr=\'#b6d3a2\',GradientType=0 );
 }
+
 .mimicbot_default_bubble:after {
   content: "";
   position: absolute;
@@ -89,10 +98,8 @@
   width: 0;
   z-index: 5;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2)
-{
-  .mimicbot_default_body
-  {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .mimicbot_default_body {
     background-size: 23px 15px;
   }
 }

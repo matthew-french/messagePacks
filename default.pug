@@ -1,9 +1,10 @@
 div(class='mimicbot_default_body')
   div(class='mimicbot_default_container')
-    p(id='message' class='mimicbot_default_message mimicbot_default_bubble #{language}') #{message}
-  div(class='mimicbot_default_outer')
-    div(class='mimicbot_default_inner')
-      div(class='circlify mimicbot_default_image u_' + userId)
+    div(class='mimicbot_default_message_outer')
+      p(id='message' class='mimicbot_default_message mimicbot_default_bubble #{language}') #{message}
+    div(class='mimicbot_default_outer')
+      div(class='mimicbot_default_inner')
+        div(class='circlify mimicbot_default_image u_' + userId)
 link(rel='stylesheet', href=css)
 style(type="text/css").
   .mimicbot_default_image.u_#{userId} {

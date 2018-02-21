@@ -1,3 +1,12 @@
+/* div(class="emote_bot_mp_body")
+  div(class="emote_bot_mp_container")
+    div(class="emote_bot_mp_message_outer")
+      p(id="message" class="emote_bot_mp_message emote_bot_mp_bubble en")
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur r
+    div(class="emote_bot_mp_outer")
+      div(class="emote_bot_mp_inner")
+        div(class="circlify emote_bot_mp_image u_74663283")     */
+
 .circlify {
   border-radius: 120px 120px 120px 120px;
   box-shadow: 0 3px 8px -5px #000000;

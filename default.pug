@@ -1,22 +1,11 @@
-div(class='mimicbot_default_body')
-  div(class='mimicbot_default_container')
-    div(class='mimicbot_default_message_outer')
-      p(id='message' class='mimicbot_default_message mimicbot_default_bubble #{language}') #{message}
-    div(class='mimicbot_default_outer')
-      div(class='mimicbot_default_inner')
-        div(class='circlify mimicbot_default_image u_' + userId)
+div(class='mimicbot-mp')
+  div(class='mimicbot-mp__bubble')
+    blockquote(class='mimicbot-mp__bubble__triangle-border mimicbot-mp__bubble__triangle-border--right')
+      p #{message}
+  div(class='mimicbot-mp__mimicbot_avatar')
+    div(class='mimicbot-mp__mimicbot_avatar__avatar u_' + userId)
 link(rel='stylesheet', href=css)
 style(type="text/css").
-  .mimicbot_default_image.u_#{userId} {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+  .u_#{userId} {
     background-image: url(#{avatar}), url(#{noAvatar});
-    background-repeat: no-repeat;
-    background-size: 120px 120px;
-    width: 120px;
-    height: 120px;
-  }
-  .mimicbot_default_body {
-    background: url(https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/default/background.png);
   }

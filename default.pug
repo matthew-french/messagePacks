@@ -3,9 +3,9 @@ div(class='mimicbot-mp')
     blockquote(class='mimicbot-mp__bubble__triangle-border mimicbot-mp__bubble__triangle-border--right')
       p #{message}
   div(class='mimicbot-mp__mimicbot_avatar')
-    div(class='mimicbot-mp__mimicbot_avatar__avatar u_' + userId)
+    div(class='mimicbot-mp__mimicbot_avatar__avatar u_' + uniqueId)
 link(rel='stylesheet', href=css)
 style(type="text/css").
-  .u_#{userId} {
+  .u_#{uniqueId} {
     background-image: url(#{avatar}), url(#{noAvatar});
   }

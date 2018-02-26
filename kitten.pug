@@ -3,10 +3,10 @@ div(class='mimicbot_kitten_body')
     p(id='message' class='mimicbot_kitten_message mimicbot_kitten_bubble #{language}') #{message}
   div(class='mimicbot_kitten_outer')
     div(class='mimicbot_kitten_inner')
-      div(class='circlify mimicbot_kitten_image u_' + userId)
+      div(class='circlify mimicbot_kitten_image u_' + uniqueId)
 link(rel='stylesheet', href=css)
 style(type="text/css").
-  .mimicbot_kitten_image.u_#{userId} {
+  .mimicbot_kitten_image.u_#{uniqueId} {
     position: absolute;
     right: 0;
     bottom: 0;

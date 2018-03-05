@@ -5,7 +5,7 @@
   position: relative;
   padding: 5px;
   margin: 0;
-  background: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/thought/thought-min.jpg');
+  background: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/images/thought-min.jpg');
   min-height: 135px;
   min-width: 300px;
 
@@ -16,7 +16,7 @@
     top: 10px;
 
     &__avatar {
-      background-image: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/noavatar.jpeg');
+      background-image: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/images/noavatar.jpeg');
       width: 120px;
       height: 120px;
       background-size: cover;

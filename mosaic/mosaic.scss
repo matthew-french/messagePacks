@@ -5,7 +5,7 @@
   position: relative;
   padding: 5px;
   margin: 0;
-  background: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/mosaic/mosaic-min.jpg');
+  background: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/images/mosaic-min.jpg');
   min-height: 135px;
   min-width: 300px;
 
@@ -16,7 +16,7 @@
     top: 10px;
 
     &__avatar {
-      background-image: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/noavatar.jpeg');
+      background-image: url('https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot/images/noavatar.jpeg');
       width: 120px;
       height: 120px;
       background-size: cover;
@@ -49,7 +49,7 @@
       padding:5px;
       margin:1px;
       color:#000;
-      background:#f3961c; /* default background for browsers without gradient support */
+      background:#ffed26;
       /* css3 */
       -webkit-border-radius:10px;
       -moz-border-radius:10px;
@@ -63,7 +63,7 @@
         left:47px; /* controls horizontal position */
         border-width:13px 13px 0; /* vary these values to change the angle of the vertex */
         border-style:solid;
-        border-color:#f3961c transparent;
+        border-color:#ffed26 transparent;
         /* reduce the damage in FF3.0 */
         display:block;
         width:0;
@@ -78,7 +78,7 @@
           bottom:auto;
           left:auto;
           border-width:12px 0 12px 14px;
-          border-color:transparent #f3961c;
+          border-color:transparent #ffed26;
         }
       }
     }

@@ -1,0 +1,108 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed: TypeError: Cannot read property 'start' of undefined
+  
+  - index.js:677 Parser.parseDoctype
+    [messagePacks]/[pug-parser]/index.js:677:20
+  
+  - index.js:222 Parser.parseExpr
+    [messagePacks]/[pug-parser]/index.js:222:21
+  
+  - index.js:112 Parser.parse
+    [messagePacks]/[pug-parser]/index.js:112:25
+  
+  - index.js:12 parse
+    [messagePacks]/[pug-parser]/index.js:12:20
+  
+  - index.js:126 Object.parse
+    [messagePacks]/[pug]/lib/index.js:126:22
+  
+  - index.js:45 Function.loadString [as string]
+    [messagePacks]/[pug-load]/index.js:45:21
+  
+  - index.js:86 compileBody
+    [messagePacks]/[pug]/lib/index.js:86:18
+  
+  - index.js:243 Object.exports.compile
+    [messagePacks]/[pug]/lib/index.js:243:16
+  
+  
+  - TypeError: Cannot read property 'start' of undefined
+  
+  - compiler.js:76 
+    [messagePacks]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:300 compile
+    [messagePacks]/[webpack]/lib/Compiler.js:300:11
+  
+  - Compiler.js:510 applyPluginsAsync.err
+    [messagePacks]/[webpack]/lib/Compiler.js:510:14
+  
+  - Tapable.js:202 next
+    [messagePacks]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [messagePacks]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [messagePacks]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:507 compilation.seal.err
+    [messagePacks]/[webpack]/lib/Compiler.js:507:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [messagePacks]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:677 applyPluginsAsync.err
+    [messagePacks]/[webpack]/lib/Compilation.js:677:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [messagePacks]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:668 applyPluginsAsync.err
+    [messagePacks]/[webpack]/lib/Compilation.js:668:11
+  
+  - Tapable.js:202 next
+    [messagePacks]/[tapable]/lib/Tapable.js:202:11
+  
+  - index.js:244 Compilation.<anonymous>
+    [messagePacks]/[uglifyjs-webpack-plugin]/dist/index.js:244:6
+  
+  - Tapable.js:206 Compilation.applyPluginsAsyncSeries
+    [messagePacks]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compilation.js:663 applyPluginsAsync.err
+    [messagePacks]/[webpack]/lib/Compilation.js:663:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [messagePacks]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:659 applyPluginsAsyncSeries
+    [messagePacks]/[webpack]/lib/Compilation.js:659:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [messagePacks]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:602 Compilation.seal
+    [messagePacks]/[webpack]/lib/Compilation.js:602:8
+  
+  - Compiler.js:504 applyPluginsParallel.err
+    [messagePacks]/[webpack]/lib/Compiler.js:504:17
+  
+  - Tapable.js:289 
+    [messagePacks]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:505 _addModuleChain
+    [messagePacks]/[webpack]/lib/Compilation.js:505:11
+  
+  - Compilation.js:475 processModuleDependencies.err
+    [messagePacks]/[webpack]/lib/Compilation.js:475:14
+  
+  - next_tick.js:131 _combinedTickCallback
+    internal/process/next_tick.js:131:7
+  
+  - next_tick.js:180 process._tickCallback
+    internal/process/next_tick.js:180:9
+  
+</pre>

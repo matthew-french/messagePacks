@@ -1,0 +1,14 @@
+div(class='mimicbot-mp-thought')
+  div(class='mimicbot-mp-thought__bubble')
+    blockquote(class='mimicbot-mp-thought__bubble__message-pack-thought')
+      p(class='language_' + language) #{message}
+  div(class='mimicbot-mp-thought__mimicbot-avatar')
+    div(class='mimicbot-mp-thought__mimicbot-avatar__avatar u_' + uniqueId)
+link(rel='stylesheet', href=baseUrl + styles + 'thought.css')
+style(type='text/css').
+  .mimicbot-mp-thought {
+    background-image: url(#{baseUrl}#{images}/thought.jpg);
+  }
+  .u_#{uniqueId} {
+    background-image: url(#{baseUrl}#{images}/#{avatar}), url(#{baseUrl}#{images}/#{noAvatar});
+  }

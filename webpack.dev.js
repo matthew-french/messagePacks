@@ -4,8 +4,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 
 const PATHS = {
-    pug: path.resolve(__dirname, 'templates'),
-    output: path.resolve(__dirname, 'dist'),
+    pug: path.resolve(__dirname, './templates'),
+    output: path.resolve(__dirname, './dist'),
 };
 
 const pugTemplate = (name) => new HtmlWebpackPlugin({
@@ -16,13 +16,13 @@ const pugTemplate = (name) => new HtmlWebpackPlugin({
 
 module.exports = {
     entry: {
-        index: 'templates/index.js',
-        default: 'templates/default/index.js',
-        mosaic: 'templates/mosaic/index.js',
-        shake: 'templates/shake/index.js',
-        spin: 'templates/spin/index.js',
-        thought: 'templates/thought/index.js',
-        sam: 'templates/sam/index.js',
+        index: './templates/index.js',
+        default: './templates/default/index.js',
+        mosaic: './templates/mosaic/index.js',
+        shake: './templates/shake/index.js',
+        spin: './templates/spin/index.js',
+        thought: './templates/thought/index.js',
+        sam: './templates/sam/index.js',
     },
     output: {
         path: PATHS.output,

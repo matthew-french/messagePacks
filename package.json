@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/matthew-french/messagePacks#readme",
   "devDependencies": {
-    "clean-webpack-plugin": "0.1.18",
-    "copy-webpack-plugin": "4.5.0",
     "css-loader": "0.28.9",
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "1.1.10",
@@ -35,9 +33,7 @@
     "sass-loader": "6.0.6",
     "style-loader": "0.20.2",
     "webpack": "3.11.0",
-    "webpack-cleanup-plugin": "0.5.1",
-    "webpack-dev-server": "2.11.1",
-    "webpack-extraneous-file-cleanup-plugin": "1.0.5"
+    "webpack-dev-server": "2.11.1"
   },
   "dependencies": {
     "pug-static-loader": "2.0.0"

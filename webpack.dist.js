@@ -27,7 +27,7 @@ module.exports = {
     },
     output: {
         path: PATHS.output,
-        filename: '[name].js',
+        filename: 'bin/[name].js',
     },
     module: {
         rules: [
@@ -47,13 +47,13 @@ module.exports = {
                     loader: 'pug-html-loader',
                     options: {
                         data: {
-                            baseUrl: 'https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot',
+                            baseUrl: 'https://s3-eu-west-1.amazonaws.com/bots-palringo-com/bots/mimic_bot_stage',
                             images: '/images',
                             styles: '/styles',
                             message: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur rid',
                             language: 'en',
                             avatar: '/avatar.jpg',
-                            noAvatar: '/noavatar.jpeg',
+                            noAvatar: '/noavatar.jpg',
                             uniqueId: '12345',
                         },
                     },

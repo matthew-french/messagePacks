@@ -10,6 +10,7 @@ const PATHS = {
 
 const pugTemplate = (name) => new HtmlWebpackPlugin({
     title: name,
+    hash: true,
     filename: `${ name }.html`,
     template: `${ PATHS.pug }/${ name }.pug`,
 });
@@ -51,7 +52,7 @@ module.exports = {
                             message: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur rid',
                             language: 'en',
                             avatar: '/avatar.jpg',
-                            noAvatar: '/noavatar.jpeg',
+                            noAvatar: '/noavatar.jpg',
                             uniqueId: '12345',
                         },
                     },

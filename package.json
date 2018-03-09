@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
-    "prod": "npm run clean && webpack --config webpack.dist.js -p && npm run cleanjs",
+    "prod": "npm run clean && webpack --config webpack.dist.js -p && npm run cleanBin",
     "clean": "rimraf ./dist/*",
-    "cleanjs": "rimraf ./dist/*.js"
+    "cleanBin": "rimraf ./dist/bin"
   },
   "repository": {
     "type": "git",
